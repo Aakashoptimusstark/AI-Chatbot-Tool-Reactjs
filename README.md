@@ -18,7 +18,7 @@ A custom AI chatbot tool built using **React 19**, **Tailwind CSS**, and Google'
 ## 📸 Preview
 
 ![Gemini Chatbot Screenshot](./public/screenshot.png)  
-*(Add a screenshot of your chatbot UI here)*
+
 
 ---
 
@@ -44,9 +44,9 @@ A custom AI chatbot tool built using **React 19**, **Tailwind CSS**, and Google'
   ```bash
   npm install
 
-3. **Create a .env file in the root directory:**
+3. **Create a configration.js file in the root directory:**
   ``ini
-  VITE_GEMINI_API_KEY=your_api_key_here
+  export const URL=your_api_key_here
 
 4. **Run the app:**
   ```bash

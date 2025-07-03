@@ -3,6 +3,7 @@ import './App.css';
 import { AI_NAME } from './Ainame';
 import RecentSearch from './component/RecentSearch';
 import QuestionAnswer from './component/QuestionAnswer';
+import { URL } from './configration';
 
 function App() {
   const [question, setQuestion]= useState('')
