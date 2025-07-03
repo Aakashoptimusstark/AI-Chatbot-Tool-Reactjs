@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
-import { URL } from './constants';
-
 import { AI_NAME } from './Ainame';
 import RecentSearch from './component/RecentSearch';
 import QuestionAnswer from './component/QuestionAnswer';

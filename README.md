@@ -1,12 +1,55 @@
-# React + Vite
+# 🤖 Gemini AI Chatbot (React + Gemini API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A custom AI chatbot tool built using **React 19**, **Tailwind CSS**, and Google's **Gemini AI API**. This chatbot allows users to ask questions and receive intelligent responses in real-time, providing a clean and interactive frontend experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 💬 Real-time conversation with Gemini AI
+- ⚡ Smooth and responsive UI with Tailwind CSS
+- 🧠 Dynamic input/output chat box
+- 🔐 `.env` based API key protection
+- 🌙 Dark mode ready (if implemented)
+- 📦 Lightweight and beginner-friendly React 19 setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![Gemini Chatbot Screenshot](./public/screenshot.png)  
+*(Add a screenshot of your chatbot UI here)*
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description                  |
+|------------|------------------------------|
+| React 19   | Frontend library              |
+| Tailwind CSS | Styling framework          |
+| Gemini API | Google’s AI for text replies |
+| .env       | API key management           |
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/gemini-chatbot.git
+   cd gemini-chatbot
+
+2. **Install dependencies:**
+  ```bash
+  npm install
+
+3. **Create a .env file in the root directory:**
+  ``ini
+  VITE_GEMINI_API_KEY=your_api_key_here
+
+4. **Run the app:**
+  ```bash
+  npm run dev
+---
+Done
